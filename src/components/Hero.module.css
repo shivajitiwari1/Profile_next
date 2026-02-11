@@ -1,0 +1,144 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: 5rem 0;
+}
+
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(59, 130, 246, 0.2) 0%, rgba(139, 92, 246, 0.2) 100%);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  position: relative;
+}
+
+.heroGrid {
+  display: grid;
+  gap: 3rem;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .heroGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.heroText {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.availabilityBadge {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: rgba(59, 130, 246, 0.2);
+  border-radius: 9999px;
+  color: #60a5fa;
+  font-size: 0.875rem;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.heroTitle {
+  font-size: 3rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #60a5fa 0%, #c084fc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .heroTitle {
+    font-size: 3.75rem;
+  }
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  color: #d1d5db;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .heroSubtitle {
+    font-size: 1.875rem;
+  }
+}
+
+.heroDescription {
+  font-size: 1.125rem;
+  color: #9ca3af;
+  line-height: 1.75;
+  margin: 0;
+}
+
+.heroButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.btnPrimary {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.btnPrimary:hover {
+  background: #1d4ed8;
+}
+
+.btnSecondary {
+  background: #1f2937;
+  color: #ffffff;
+}
+
+.btnSecondary:hover {
+  background: #374151;
+}
+
+.heroImageContainer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.imageGlow {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #2563eb 0%, #8b5cf6 100%);
+  border-radius: 24px;
+  filter: blur(40px);
+  opacity: 0.3;
+}
+
+.heroImage {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 24px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  border: 4px solid #1f2937;
+}
