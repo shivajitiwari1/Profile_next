@@ -1,0 +1,194 @@
+{
+  "profile": {
+    "name": "Shivaji Tiwari",
+    "title": "Solutions Architect & Senior Full-Stack Developer | Expanding into AI Integration",
+    "email": "shivajitiwari@gmail.com",
+    "phone": "+91 9555839357",
+    "linkedin": "https://linkedin.com/in/shivajitiwari",
+    "location": "India (Open to Global Remote)",
+    "profileImage": "/images/profile.jpg",
+    "availability": "Available for Remote Opportunities"
+  },
+  "summary": {
+    "intro": "16+ years of experience building scalable and secure enterprise applications. Currently expanding into AI integration, intelligent automation, and modern web platforms using React, Next.js, Node.js, PHP and enterprise-grade architectures.",
+    "description1": "Strategic Solutions Architect and Senior Full-Stack Developer with 16+ years of experience architecting high-performance, secure, and automation-driven platforms. Delivered measurable impact by reducing operational overhead by 60%+ through scalable backend systems, cloud-native architectures, and intelligent workflow automation.",
+    "description2": "Advanced AI/LLM Integration Engineer specializing in OpenAI GPT-4, Claude, and Ollama-based systems. Experienced in designing RAG pipelines, vector search architectures, semantic retrieval systems, and production-grade AI automation for enterprise-level applications."
+
+  },
+  "stats": [
+    {
+      "value": "16+",
+      "label": "Years of Experience",
+      "color": "blue"
+    },
+    {
+      "value": "10K+",
+      "label": "Monthly Users Served",
+      "color": "purple"
+    },
+    {
+      "value": "60%",
+      "label": "Manual Operations Reduced",
+      "color": "green"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Computer Applications (MCA)",
+      "institution": "UPTU",
+      "period": "2005 - 2008",
+      "percentage": "65.66%"
+    },
+    {
+      "degree": "Bachelor of Computer Applications (BCA)",
+      "institution": "Sikkim Manipal University",
+      "period": "2000 - 2005",
+      "percentage": "63.41%"
+    }
+  ],
+  "skills": {
+    "frontend": ["React.js", "Next.js", "TypeScript", "Webflow", "Tailwind CSS", "Redux", "Angular"],
+    "backend": ["Node.js", "PHP", "Laravel", "Express", "GraphQL", "REST APIs"],
+    "database": ["MySQL", "MongoDB", "Cloudflare R2"],
+    "aiml": ["OpenAI GPT-4", "Claude API", "Ollama", "RAG Architecture", "Vector Databases"],
+    "devops": ["Docker", "Jenkins", "CI/CD", "Git", "AWS"],
+    "ecommerce": ["WordPress","woocommerce", "Magento 2", "Shopify", "PayPal Integration", "Stripe"]
+  },
+  "experience": [
+    {
+      "id": 1,
+      "company": "KUKALAYA LLC",
+      "role": "Solutions Architect / Consultant",
+      "period": "Oct 2024 - Jan 2025",
+      "location": "Remote, USA",
+      "highlights": [
+        "Architected platforms serving 10,000+ monthly users",
+        "Implemented AI-powered workflows and automation",
+        "Optimized performance by 40% using Cloudflare R2",
+        "Built secure REST APIs with JWT & RBAC"
+      ]
+    },
+    {
+      "id": 2,
+      "company": "IBM",
+      "role": "Application Developer",
+      "period": "Dec 2022 - Oct 2024",
+      "location": "Noida, India",
+      "highlights": [
+        "95%+ user satisfaction on chatbot UI",
+        "35% reduction in development time",
+        "98% on-time delivery across 12+ sprints"
+      ]
+    },
+    {
+      "id": 3,
+      "company": "Tata Consultancy Services (TCS)",
+      "role": "Associate Consultant",
+      "period": "Apr 2022 - Oct 2022",
+      "location": "Noida, India",
+      "highlights": [
+        "Led client onboarding sessions and translated business requirements",
+        "Contributed to process improvement initiatives reducing setup time by 20%",
+        "Facilitated knowledge transfer between technical teams"
+      ]
+    },
+    {
+      "id": 4,
+      "company": "Virtual Employee Pvt Ltd",
+      "role": "Senior Software Engineer / Team Lead",
+      "period": "Sep 2015 - Apr 2022",
+      "location": "Noida, India",
+      "highlights": [
+        "Led team of 5 developers",
+        "Established CI/CD pipelines reducing deployment time by 50%",
+        "Architected microservices architecture"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Cuisinao Platform",
+      "company": "KUKALAYA LLC",
+      "description": "Full-stack recipe platform serving 10,000+ monthly users with 5,000+ recipes",
+      "impact": [
+        "40% reduction in load times",
+        "30% performance improvement",
+        "Advanced filtering & analytics"
+      ],
+      "tech": ["Webflow", "React", "Next.js", "Node.js", "MySQL", "Cloudflare R2"],
+      "url": "https://cuisinao.com"
+    },
+    {
+      "id": 2,
+      "name": "NatVisa Platform",
+      "company": "KUKALAYA LLC",
+      "description": "Visa application platform processing 1,000+ applications per month",
+      "impact": [
+        "25% form completion improvement",
+        "Multi-country support",
+        "Secure document handling"
+      ],
+      "tech": ["React", "Next.js", "Contentful", "Retool", "JWT"],
+      "url": "https://natvisatravel.com"
+    },
+    {
+      "id": 3,
+      "name": "IBM Chatbot UI",
+      "company": "IBM",
+      "description": "Enterprise-grade chatbot serving internal teams",
+      "impact": [
+        "95% user satisfaction",
+        "35% dev time reduction",
+        "Reusable component library"
+      ],
+      "tech": ["React", "Carbon Design System", "REST APIs"],
+      "url": null
+    },
+    {
+      "id": 4,
+      "name": "Search Data Analytics",
+      "company": "Virtual Employee",
+      "description": "Full-stack analytics platform with data visualization",
+      "impact": [
+        "AWS deployment",
+        "Real-time analytics",
+        "RESTful APIs"
+      ],
+      "tech": ["Angular", "Node.js", "Express", "MongoDB"],
+      "url": "https://searchdataanalytics.com"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "title": "AI-Powered Applications",
+      "description": "LLM integration, RAG systems, AI chatbots, intelligent automation"
+    },
+    {
+      "id": 2,
+      "title": "Full-Stack Development",
+      "description": "React, Next.js, Node.js, scalable web applications"
+    },
+    {
+      "id": 3,
+      "title": "E-commerce Solutions",
+      "description": "Payment integration, checkout flows, cart management"
+    },
+    {
+      "id": 4,
+      "title": "CMS & Automation",
+      "description": "Webflow, WordPress, workflow automation, data processing"
+    },
+    {
+      "id": 5,
+      "title": "Performance Optimization",
+      "description": "Lighthouse improvements, CDN strategies, asset optimization"
+    },
+    {
+      "id": 6,
+      "title": "Security & Compliance",
+      "description": "JWT auth, RBAC, encryption, API security"
+    }
+  ]
+}

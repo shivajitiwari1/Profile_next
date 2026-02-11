@@ -10,9 +10,11 @@
     "availability": "Available for Remote Opportunities"
   },
   "summary": {
-    "intro": "16+ years building scalable, secure platforms. Specializing in AI/LLM integration, automation, and full-stack development with React, Next.js, Node.js, and PHP.",
-    "description1": "Solutions Architect and Senior Full-Stack Developer with 16+ years of experience delivering scalable, secure, and automation-driven web platforms. Strong expertise across the full stack with proven ability to reduce manual operations by 60%+ through intelligent automation.",
-    "description2": "Pioneering AI/LLM integration specialist with hands-on experience implementing intelligent automation workflows using OpenAI GPT-4, Claude, and Ollama. Expertise in RAG architectures, vector databases, and semantic search for context-aware AI applications."
+    "intro": "16+ years delivering scalable, secure platforms. Specializing in AI/LLM integration, automation engineering, and full-stack development with React, Next.js, Node.js, PHP, and modern cloud technologies.",
+    "description1": "Solutions Architect and Senior Full-Stack Developer with 16+ years of experience delivering scalable, secure, and automation-driven web platforms. Strong hands-on expertise in PHP (10+ years) across Laravel, WordPress, and Magento; JavaScript (10+ years); React.js (6+ years); Next.js (6+ years); and Node.js (6+ years) for API-first and microservice-based architectures.",
+    "description2": "Specialized in automation engineering, including CMS automation (3+ years), backend cron jobs and workflow automation (3+ years), and payment and order lifecycle automation (3+ years). Successfully reduced manual operations by 60%+ through automated systems on platforms such as Cuisinao and NatVisa Travel.",
+    "description3": "Pioneering AI/LLM integration specialist with hands-on experience implementing intelligent automation workflows using OpenAI GPT-4, Claude, and Ollama. Expertise in RAG (Retrieval-Augmented Generation) architectures, vector databases, and semantic search for context-aware AI applications. Successfully deployed AI-powered chatbots, content generation systems, and automated decision engines serving enterprise clients.",
+    "description4": "Experienced in Webflow (2+ years), MySQL (10+ years), Cloudflare R2, JWT & RBAC security, and building high-performance systems serving 10,000+ monthly users, with measurable gains in performance, scalability, and operational efficiency."
   },
   "stats": [
     {
@@ -46,62 +48,124 @@
     }
   ],
   "skills": {
-    "frontend": ["React.js", "Next.js", "TypeScript", "Webflow", "Tailwind CSS", "Redux", "Angular"],
-    "backend": ["Node.js", "PHP", "Laravel", "Express", "GraphQL", "REST APIs"],
-    "database": ["MySQL", "MongoDB", "Cloudflare R2"],
-    "aiml": ["OpenAI GPT-4", "Claude API", "Ollama", "RAG Architecture", "Vector Databases"],
-    "devops": ["Docker", "Jenkins", "CI/CD", "Git", "AWS"],
-    "ecommerce": ["WordPress", "Magento 2", "PayPal Integration", "Stripe"]
+    "frontend": ["React.js", "Next.js 14+", "TypeScript", "Redux", "Angular", "Webflow", "Tailwind CSS", "Bootstrap", "Figma", "Responsive Design", "jQuery"],
+    "backend": ["Node.js (LTS)", "PHP 8+", "Laravel", "Express", "Python", "GraphQL", "REST APIs"],
+    "database": ["MySQL 8.x", "MongoDB", "Cloudflare R2 (S3)"],
+    "ecommerce": ["WordPress", "WooCommerce", "Magento 2", "Shopify", "Payment Gateways", "Shopping Cart", "Order Management"],
+    "cms": ["Webflow CMS", "WordPress", "Contentful", "Headless CMS", "Magento 2"],
+    "aiml": ["OpenAI GPT-4", "Claude API", "Ollama", "RAG Architecture", "Vector Databases", "Semantic Search", "AI Chatbots", "LLM Integration"],
+    "automation": ["N8N", "Zapier", "Workflow Automation", "CMS Automation", "Cron Jobs", "Payment Lifecycle", "Order Automation"],
+    "devops": ["Docker", "Jenkins", "CI/CD", "Git", "AWS Cloud", "SVN"],
+    "security": ["JWT Authentication", "RBAC", "Input Validation", "Encryption", "API Rate Limiting", "OAuth"],
+    "payments": ["PayPal API", "Stripe", "Payment Gateway Integration", "Checkout Flows", "Cart Management"],
+    "tools": ["Retool", "Cognitoforms", "Carbon Design System", "Google Sites", "SSH", "FTP"]
   },
   "experience": [
     {
       "id": 1,
       "company": "KUKALAYA LLC",
-      "role": "Solutions Architect / Consultant",
+      "role": "Solutions Architect / Independent Consultant",
       "period": "Oct 2024 - Jan 2025",
       "location": "Remote, USA",
+      "type": "Contract",
       "highlights": [
-        "Architected platforms serving 10,000+ monthly users",
-        "Implemented AI-powered workflows and automation",
-        "Optimized performance by 40% using Cloudflare R2",
-        "Built secure REST APIs with JWT & RBAC"
-      ]
+        "Architected and developed complete Webflow CMS + Node.js and Next.js platform serving 10,000+ monthly users",
+        "Designed secure REST APIs with JWT authentication, RBAC, input validation, and comprehensive error handling",
+        "Implemented checkout and payment workflows including cart, dynamic shipping logic, order summary, and PayPal integration",
+        "Optimized image delivery using Cloudflare R2 signed URLs, reducing load times by ~40%",
+        "Improved Lighthouse performance scores by ~30% through frontend and backend optimizations",
+        "Automated CMS operations, scheduled cleanup jobs, and admin workflows"
+      ],
+      "technologies": ["Webflow", "React", "Next.js", "TypeScript", "Node.js", "GraphQL", "Express", "MySQL", "Cloudflare R2", "PayPal API", "Contentful", "Retool", "JWT", "Tailwind CSS"]
     },
     {
       "id": 2,
       "company": "IBM",
-      "role": "Application Developer",
+      "role": "Application Developer (Client Delivery)",
       "period": "Dec 2022 - Oct 2024",
       "location": "Noida, India",
       "highlights": [
-        "95%+ user satisfaction on chatbot UI",
-        "35% reduction in development time",
-        "98% on-time delivery across 12+ sprints"
-      ]
+        "Delivered enterprise-grade React chatbot UI using Carbon Design System, serving internal teams with 95%+ user satisfaction",
+        "Built reusable component library reducing development time for new features by 35%",
+        "Integrated backend services via REST APIs with robust error handling and real-time data synchronization",
+        "Collaborated with product managers and cross-functional teams to translate business requirements into technical solutions",
+        "Optimized application performance through code reviews, testing, and implementation of best practices",
+        "Shipped features on schedule with 98% on-time delivery rate across 12+ sprint cycles"
+      ],
+      "technologies": ["React", "Carbon Design System", "REST APIs", "JavaScript", "Git"]
     },
     {
       "id": 3,
-      "company": "Virtual Employee Pvt Ltd",
-      "role": "Senior Software Engineer / Team Lead",
-      "period": "Sep 2015 - Apr 2022",
-      "location": "Noida, India",
-      "highlights": [
-        "Led team of 5 developers",
-        "Established CI/CD pipelines reducing deployment time by 50%",
-        "Architected microservices architecture"
-      ]
-    },
-    {
-      "id": 4,
       "company": "Tata Consultancy Services (TCS)",
       "role": "Associate Consultant",
       "period": "Apr 2022 - Oct 2022",
       "location": "Noida, India",
       "highlights": [
-        "Led client onboarding sessions and translated business requirements",
-        "Contributed to process improvement initiatives reducing setup time by 20%",
-        "Facilitated knowledge transfer between technical teams"
-      ]
+        "Led client onboarding sessions and translated business requirements into actionable technical specifications",
+        "Developed implementation roadmaps for new system deployments, ensuring alignment with client objectives",
+        "Contributed to process improvement initiatives that reduced project setup time by 20%",
+        "Facilitated knowledge transfer sessions between technical teams and stakeholders"
+      ],
+      "technologies": []
+    },
+    {
+      "id": 4,
+      "company": "Virtual Employee Pvt Ltd",
+      "role": "Senior Software Engineer / Team Lead",
+      "period": "Sep 2015 - Apr 2022",
+      "location": "Noida, India",
+      "highlights": [
+        "Led team of 5 developers delivering web applications and APIs using PHP, Laravel, JavaScript, and Node.js",
+        "Architected and implemented REST services in microservices architecture, improving system modularity and scalability",
+        "Built custom WordPress themes and plugins with payment gateway integrations",
+        "Developed Magento 2 custom modules for ecommerce functionality",
+        "Established CI/CD pipelines using Jenkins and Docker, reducing deployment time by 50% and eliminating manual errors",
+        "Mentored junior developers on code quality, debugging techniques, and software design patterns",
+        "Integrated third-party APIs including payment processors, shipping providers, and CRM systems",
+        "Produced comprehensive technical documentation and conducted code reviews to maintain quality standards"
+      ],
+      "technologies": ["PHP", "Laravel", "Node.js", "Express", "MySQL", "WordPress", "Magento 2", "Docker", "Jenkins", "Git", "REST APIs"]
+    },
+    {
+      "id": 5,
+      "company": "Flexin Technology",
+      "role": "Senior Software Engineer",
+      "period": "May 2014 - Mar 2015",
+      "location": "Noida, India",
+      "highlights": [
+        "Gathered stakeholder requirements and designed technical architecture for new web application from ground up",
+        "Developed modular frontend components with API integrations ensuring scalability and maintainability",
+        "Participated in security reviews and implemented authentication, authorization, and data encryption",
+        "Standardized development environments using Docker containers, reducing onboarding time for new developers"
+      ],
+      "technologies": ["PHP", "JavaScript", "MySQL", "Docker", "REST APIs"]
+    },
+    {
+      "id": 6,
+      "company": "ADI Backoffice",
+      "role": "Software Developer",
+      "period": "Jun 2011 - May 2014",
+      "location": "Mohali, Punjab, India",
+      "highlights": [
+        "Developed and maintained web applications using HTML, CSS, JavaScript with MySQL database design",
+        "Built REST APIs for web and mobile clients with comprehensive error handling and validation",
+        "Optimized database queries and application performance, reducing page load times by 35%"
+      ],
+      "technologies": ["PHP", "JavaScript", "HTML", "CSS", "MySQL", "REST APIs"]
+    },
+    {
+      "id": 7,
+      "company": "Conztrue Inc",
+      "role": "PHP Developer",
+      "period": "Dec 2008 - Jun 2011",
+      "location": "New Delhi, India",
+      "highlights": [
+        "Developed custom PHP applications and maintained production websites using LAMP stack",
+        "Implemented database-driven features with MySQL optimization and query performance tuning",
+        "Integrated third-party APIs and payment gateways for ecommerce functionality",
+        "Managed deployments using Git and SVN version control with SSH and FTP workflows"
+      ],
+      "technologies": ["PHP", "MySQL", "JavaScript", "HTML", "CSS", "Git", "SVN"]
     }
   ],
   "projects": [
@@ -122,72 +186,213 @@
       "id": 2,
       "name": "NatVisa Platform",
       "company": "KUKALAYA LLC",
-      "description": "Visa application platform processing 1,000+ applications per month",
+      "description": "Visa application platform processing 1,000+ applications per month with multi-country support",
       "impact": [
         "25% form completion improvement",
         "Multi-country support",
-        "Secure document handling"
+        "Secure document handling with encryption"
       ],
       "tech": ["React", "Next.js", "Contentful", "Retool", "JWT"],
       "url": "https://natvisatravel.com"
     },
     {
       "id": 3,
-      "name": "IBM Chatbot UI",
+      "name": "Chat Boart - IBM Chatbot UI",
       "company": "IBM",
-      "description": "Enterprise-grade chatbot serving internal teams",
+      "description": "Enterprise-grade chatbot application using React with Carbon Design System for internal teams",
       "impact": [
         "95% user satisfaction",
-        "35% dev time reduction",
-        "Reusable component library"
+        "35% dev time reduction through reusable component library",
+        "Real-time chat functionality"
       ],
-      "tech": ["React", "Carbon Design System", "REST APIs"],
-      "url": null
+      "tech": ["React", "Carbon Design System", "Bootstrap", "REST APIs"],
+      "url": null,
+      "teamSize": 15,
+      "year": "2023 - 2024"
     },
     {
       "id": 4,
+      "name": "CISO Dashboard",
+      "company": "Enterprise Client",
+      "description": "Responsive security operations dashboard for executive reporting with real-time security metrics",
+      "impact": [
+        "Interactive data visualization",
+        "Multiple security API integrations",
+        "Real-time analytics"
+      ],
+      "tech": ["React", "Google Sites", "Bootstrap"],
+      "url": null,
+      "teamSize": 5,
+      "year": "2022"
+    },
+    {
+      "id": 5,
       "name": "Search Data Analytics",
       "company": "Virtual Employee",
-      "description": "Full-stack analytics platform with data visualization",
+      "description": "Full-stack analytics platform with comprehensive data visualization modules on AWS Cloud",
       "impact": [
-        "AWS deployment",
+        "AWS deployment with high availability",
         "Real-time analytics",
-        "RESTful APIs"
+        "RESTful APIs with MongoDB integration"
       ],
-      "tech": ["Angular", "Node.js", "Express", "MongoDB"],
-      "url": "https://searchdataanalytics.com"
+      "tech": ["Angular", "Node.js", "Express", "MongoDB", "AWS"],
+      "teamSize": 6,
+      "year": "2018 - 2020"
+    },
+    {
+      "id": 6,
+      "name": "PetaParts",
+      "company": "Virtual Employee",
+      "description": "Auto parts eCommerce platform with custom Magento 2 themes and specialized inventory management",
+      "impact": [
+        "Optimized page load times",
+        "Dynamic product filtering with AJAX",
+        "Custom inventory management modules"
+      ],
+      "tech": ["Magento 2", "jQuery", "AJAX", "MySQL", "HTML5"],
+      "url": "https://www.petaparts.com/",
+      "teamSize": 4,
+      "year": "2015 - 2018"
+    },
+    {
+      "id": 7,
+      "name": "FamousPrice",
+      "company": "Client Project",
+      "description": "E-commerce price comparison platform",
+      "impact": [
+        "Price comparison engine",
+        "Multi-vendor integration",
+        "Real-time price updates"
+      ],
+      "tech": ["PHP", "MySQL", "JavaScript"]
+    },
+    {
+      "id": 8,
+      "name": "Adept COE",
+      "company": "Client Project",
+      "description": "Corporate website and center of excellence platform",
+      "impact": [
+        "Corporate content management",
+        "Responsive design implementation",
+        "SEO optimization"
+      ],
+      "tech": ["WordPress", "PHP", "MySQL"]
+    },
+    {
+      "id": 9,
+      "name": "Mum The Photographer",
+      "company": "Client Project",
+      "description": "Photography portfolio and booking website",
+      "impact": [
+        "Portfolio gallery system",
+        "Online booking integration",
+        "Image optimization"
+      ],
+      "tech": ["WordPress", "PHP", "JavaScript"]
+    },
+    {
+      "id": 10,
+      "name": "iVIP Health",
+      "company": "Client Project",
+      "description": "Healthcare services platform",
+      "impact": [
+        "Patient management system",
+        "Appointment scheduling",
+        "Secure data handling"
+      ],
+      "tech": ["PHP", "MySQL", "JavaScript"],
+      "url": "http://www.iviphealth.com"
+    },
+    {
+      "id": 11,
+      "name": "UJUJ",
+      "company": "Client Project",
+      "description": "Social networking platform",
+      "impact": [
+        "User profile management",
+        "Social feed implementation",
+        "Real-time notifications"
+      ],
+      "tech": ["PHP", "MySQL", "JavaScript"]
+    },
+    {
+      "id": 12,
+      "name": "IleeCo",
+      "company": "Client Project",
+      "description": "E-commerce platform (French)",
+      "impact": [
+        "Multi-language support",
+        "Payment gateway integration",
+        "Inventory management"
+      ],
+      "tech": ["PHP", "MySQL", "JavaScript"]
+    },
+    {
+      "id": 13,
+      "name": "VinoPlace",
+      "company": "Client Project",
+      "description": "Wine e-commerce platform",
+      "impact": [
+        "Product catalog management",
+        "Shopping cart functionality",
+        "Order processing system"
+      ],
+      "tech": ["PHP", "MySQL", "JavaScript"]
+    },
+    {
+      "id": 14,
+      "name": "More For Kids UK",
+      "company": "Client Project",
+      "description": "Children's products e-commerce website",
+      "impact": [
+        "WooCommerce customization",
+        "Product filtering system",
+        "Secure checkout process"
+      ],
+      "tech": ["WordPress", "WooCommerce", "PHP"],
+      "url": "https://moreforkidsuk.com"
     }
   ],
   "services": [
     {
       "id": 1,
-      "title": "AI-Powered Applications",
-      "description": "LLM integration, RAG systems, AI chatbots, intelligent automation"
+      "title": "AI-Powered Application Development",
+      "description": "End-to-end LLM integration (OpenAI GPT-4, Claude, Ollama), RAG-style knowledge systems, semantic search, AI chatbots, and intelligent content generation pipelines"
     },
     {
       "id": 2,
-      "title": "Full-Stack Development",
-      "description": "React, Next.js, Node.js, scalable web applications"
+      "title": "Intelligent Automation & Workflows",
+      "description": "N8N/Zapier workflow automation, AI-assisted data processing, automated decision engines, and smart notification systems with ML-driven triggers"
     },
     {
       "id": 3,
-      "title": "E-commerce Solutions",
-      "description": "Payment integration, checkout flows, cart management"
+      "title": "Webflow/Next.js Implementation",
+      "description": "Secure API proxy patterns, token protection, headless CMS architectures with AI-enhanced content management and dynamic personalization"
     },
     {
       "id": 4,
-      "title": "CMS & Automation",
-      "description": "Webflow, WordPress, workflow automation, data processing"
+      "title": "Checkout & Payment Systems",
+      "description": "Cart management, dynamic shipping logic, order lifecycle automation, PayPal/Stripe integration with fraud detection and AI-powered analytics"
     },
     {
       "id": 5,
-      "title": "Performance Optimization",
-      "description": "Lighthouse improvements, CDN strategies, asset optimization"
+      "title": "CMS & Operations Intelligence",
+      "description": "Webflow CMS workflows, bulk operations automation, scheduled jobs, data cleanup, and AI-powered content tagging/categorization"
     },
     {
       "id": 6,
+      "title": "Performance & Delivery Optimization",
+      "description": "Lighthouse improvements, asset optimization, CDN strategies, and predictive caching using AI-driven user behavior analysis"
+    },
+    {
+      "id": 7,
       "title": "Security & Compliance",
-      "description": "JWT auth, RBAC, encryption, API security"
+      "description": "JWT auth, RBAC, input validation, encryption, API rate limiting, and AI-assisted threat detection/monitoring"
+    },
+    {
+      "id": 8,
+      "title": "Full-Stack Development",
+      "description": "React, Next.js, Node.js, PHP/Laravel, scalable web applications with microservices architecture"
     }
   ]
 }

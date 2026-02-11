@@ -49,7 +49,7 @@ export default function Hero({ profile, summary, setActiveSection }) {
             <Image
               src={profile?.profileImage || '/images/profile.jpg'}
               alt={profile?.name || 'Profile'}
-              width={320}
+              width={260}
               height={320}
               className={styles.heroImage}
               priority
