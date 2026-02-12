@@ -4,20 +4,41 @@ import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import styles from './Navigation.module.css';
 
-export default function Navigation({ activeSection, setActiveSection, profile }) {
+export default function Navigation({
+  activeSection,
+  setActiveSection,
+  profile,
+  sectionRefs
+}) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const NavLink = ({ section, label }) => (
     <button
       onClick={() => {
+        const element = sectionRefs[section]?.current;
+
+        if (element) {
+          const offset = 80; // 🔥 20px less movement
+          const topPosition =
+            element.getBoundingClientRect().top + window.pageYOffset - offset;
+
+          window.scrollTo({
+            top: topPosition,
+            behavior: 'smooth',
+          });
+        }
+
         setActiveSection(section);
         setMobileMenuOpen(false);
       }}
-      className={`${styles.navLink} ${activeSection === section ? styles.active : ''}`}
+      className={`${styles.navLink} ${
+        activeSection === section ? styles.active : ''
+      }`}
     >
       {label}
     </button>
   );
+
 
   return (
     <nav className={styles.navbar}>
@@ -26,8 +47,12 @@ export default function Navigation({ activeSection, setActiveSection, profile })
           <div className={styles.logoSection}>
             <div className={styles.logoIcon}>ST</div>
             <div className={styles.logoText}>
-              <div className={styles.logoName}>{profile?.name || 'Shivaji Tiwari'}</div>
-              <div className={styles.logoSubtitle}>Solutions Architect</div>
+              <div className={styles.logoName}>
+                {profile?.name || 'Shivaji Tiwari'}
+              </div>
+              <div className={styles.logoSubtitle}>
+                Solutions Architect
+              </div>
             </div>
           </div>
 

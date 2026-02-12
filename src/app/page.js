@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Navigation from '@/components/Navigation';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
@@ -16,8 +16,15 @@ export default function Home() {
   const [portfolioData, setPortfolioData] = useState(null);
   const [loading, setLoading] = useState(true);
 
+  // 🔥 Section Refs
+  const aboutRef = useRef(null);
+  const experienceRef = useRef(null);
+  const projectsRef = useRef(null);
+  const skillsRef = useRef(null);
+  const servicesRef = useRef(null);
+  const contactRef = useRef(null);
+
   useEffect(() => {
-    // Fetch all portfolio data from API
     fetch('/api/portfolio')
       .then(res => res.json())
       .then(data => {
@@ -62,46 +69,55 @@ export default function Home() {
 
   return (
     <div>
-      <Navigation 
+      <Navigation
         activeSection={activeSection}
         setActiveSection={setActiveSection}
         profile={portfolioData.profile}
+        sectionRefs={{
+          about: aboutRef,
+          experience: experienceRef,
+          projects: projectsRef,
+          skills: skillsRef,
+          services: servicesRef,
+          contact: contactRef
+        }}
       />
-      
-      <Hero 
+
+      <Hero
         profile={portfolioData.profile}
         summary={portfolioData.summary}
-        setActiveSection={setActiveSection}
       />
 
       <main style={{ maxWidth: '1280px', margin: '0 auto', padding: '3rem 1rem' }}>
-        {activeSection === 'about' && (
-          <About 
+
+        <section ref={aboutRef}>
+          <About
             summary={portfolioData.summary}
             stats={portfolioData.stats}
             education={portfolioData.education}
           />
-        )}
+        </section>
 
-        {activeSection === 'experience' && (
+        <section ref={experienceRef}>
           <Experience experience={portfolioData.experience} />
-        )}
+        </section>
 
-        {activeSection === 'projects' && (
+        <section ref={projectsRef}>
           <Projects projects={portfolioData.projects} />
-        )}
+        </section>
 
-        {activeSection === 'skills' && (
+        <section ref={skillsRef}>
           <Skills skills={portfolioData.skills} />
-        )}
+        </section>
 
-        {activeSection === 'services' && (
+        <section ref={servicesRef}>
           <Services services={portfolioData.services} />
-        )}
+        </section>
 
-        {activeSection === 'contact' && (
+        <section ref={contactRef}>
           <Contact profile={portfolioData.profile} />
-        )}
+        </section>
+
       </main>
 
       <Footer profile={portfolioData.profile} />
